@@ -34,7 +34,9 @@ Annotating Variables
 ---
 
 @summary - optional
+
 @var or @constant or @lexical? - required as applicable
+
 @example - optional
 
 ---
