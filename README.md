@@ -53,7 +53,7 @@ var
 const
 
     /**
-     * @constant {Object} locationCrumb - jQuery object targeting HTML element .locationCrumb, HTML element is created by 
+     * @constant {Object} breadcrumbTwo - jQuery object targeting HTML element .breadcrumbs .two
      */
 
 let
