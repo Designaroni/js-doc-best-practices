@@ -1,4 +1,4 @@
-# jsdoc-best-practices
+# js-doc-best-practices
 Best practices for JSdoc.app annotation standards
 
 ---
