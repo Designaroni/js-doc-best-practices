@@ -1,5 +1,5 @@
 # js-doc-best-practices
-Best practices for JSdoc.app annotation standards
+Best Practices for JavaScript (ES5,ES6), JSdoc.app annotation standards, and general/personal best practices.
 
 ---
 JavaScript ES5 & ES6+ commenting best practices & personal preferences
