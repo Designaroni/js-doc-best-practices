@@ -61,6 +61,36 @@ let
     /**
      * @todo define standard for let
      */
+     
+Annotating with single quotes, back ticks (aka back quotes) & double quotes
+---
+
+When describing DOM elements, CSS classes or Id's in comment strings use single quotes
+
+    /**
+     * Site Logo Image Adjustments Component
+     * @description Removes _small on 'css-class' DOM element
+     * @requires {*} Runs on all CMS pages with the CSS body class of 'specialPage'
+     * @see [_site_logo_image_adjustments.scss]
+     */
+     
+When declaring strings in JavaScript use back ticks whenever possible, this follows ES6 improvements and sets a standard to allow for separate purposes for single and double quotes.
+
+    /**
+     * Check for CSS class '.specialPage', applied to page element
+     */
+    if ( $(`.specialPage`).exists() ) {
+    
+    ...
+    
+    }
+    
+When defining HTML attributes on DOM element strings use double quotes.
+    
+    /**
+     * Create element '.a-link'
+     */
+    let markup += `<a class="a-link" href="${href}"></a>"`
 
 Annotating Functions
 ---
